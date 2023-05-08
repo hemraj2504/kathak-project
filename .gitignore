@@ -1,0 +1,7 @@
+.vscode
+
+kathak/venv
+kathak/app/__pycache__
+# kathak/app/site.sqlite3
+kathak/app/mobilebert-squad
+

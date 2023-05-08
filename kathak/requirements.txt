@@ -1,0 +1,8 @@
+flask
+flask_cors
+flask_login
+flask_sqlalchemy
+transformers
+torch
+newspaper3k
+Werkzeug

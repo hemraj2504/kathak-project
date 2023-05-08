@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Auto Resize Textarea in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="ask.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"
+        ><img src="images/Project logo.png" class="logo"
+      /></a>
+      <ul>
+        <li>
+          <a href="index.html"><b>HOME</b></a>
+        </li>
+        <li>
+          <a href="Ask.html"> <b>ASK</b></a>
+        </li>
+        <li>
+          <a href=""><b>ABOUT</b></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="wrapper">
+        <h2>Enter Your Link or Paragraph</h2>
+        <textarea
+          id="content"
+          spellcheck="false"
+          placeholder="Type something here... "
+          value="This is something"
+          required
+        ></textarea>
+      </div>
+
+      <div class="wrapper">
+        <h2>Ask Any question</h2>
+        <textarea
+          id="question"
+          spellcheck="false"
+          placeholder="Type something here..."
+          value="What is it?"
+          required
+        ></textarea>
+        <button id="gen" onclick="askQuestion()">Generate</button>
+      </div>
+
+      <br />
+      <div class="wrapper">
+        <h2>Answer:-</h2>
+        <textarea
+          id="answer"
+          spellcheck="false"
+          placeholder="Type something here..."
+          required
+        ></textarea>
+      </div>
+    </div>
+
+    <script>
+      const textarea = document.querySelector("textarea");
+      textarea.addEventListener("keyup", (e) => {
+        textarea.style.height = "63px";
+        let scHeight = e.target.scrollHeight;
+        textarea.style.height = `${scHeight}px`;
+      });
+
+      async function askQuestion() {
+        console.log("iam here");
+        var text = document.getElementById("content").value;
+        var question = document.getElementById("question").value;
+        http_data = JSON.stringify({ text: text, question: question });
+
+        console.log(http_data);
+        var answer = "";
+        fetch("http://127.0.0.1:5000/question_answer", {
+          method: "POST",
+          body: http_data,
+        })
+          .then((response) => response.text())
+          .then((result) => {
+            console.log("Success:", result);
+            document.getElementById("answer").value = result;
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+      }
+    </script>
+  </body>
+</html>

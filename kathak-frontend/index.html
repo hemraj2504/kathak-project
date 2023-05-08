@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <!-- <img src="images/menu.png" class="menu-img" /> -->
+        <a href="index.html"><img src="images/Project logo.png" class="logo" /></a> 
+        <ul id="nav-list">
+          <li><a href="index.html"><b>HOME</b></a></li>
+          <li><a href=""><b>ABOUT</b></a></li>
+          <!-- <li><a href="ask.html"> <b>ASK</b></a></li>` -->
+          <!-- <li><a href="login.html"><b>LOGIN</b></a></li>
+           <li><a href="signup.html"><b>SIGN UP</b></a></li> -->
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn">
+          <span></span>
+        </button>
+      </nav>
+      <div class="lamp-container">
+        <img src="images/lamp.png" class="lamp" />
+        <img src="images/light.png" class="light" id="light" />
+      </div>
+      <div class="text-container" id="text-container">
+        <h1>
+          Learn,<br />
+          Grow, Thrive.
+        </h1>
+        <p>
+          Education has the power to transform lives, break down barriers, and
+          create a more equitable and just world. It is a tool for personal
+          growth, societal progress, and global advancement.
+        </p>
+        <a href="ask.html">Start Asking</a>
+        <!-- <div class="control">
+          <p>04</p>
+          <div class="line"><span></span></div>
+          <p>05</p>
+        </div> -->
+      </div>
+    </div>
+
+    <script>
+      var btn = document.getElementById("btn");
+      var light = document.getElementById("light");
+      
+      (function() {
+        var token = localStorage.getItem('token');
+        var nav_list = document.getElementById("nav-list");
+
+        var ask_page = '<li><a href="ask.html"> <b>ASK</b></a></li>';
+        var logout_page = '<li><a href="login.html" onclick="logout()"> <b>LOGOUT</b></a></li>';
+        var login_page = '<li><a href="login.html"><b>LOGIN</b></a></li>';
+        var signup_page = '<li><a href="signup.html"><b>SIGN UP</b></a></li>';
+
+        if (token) {
+          nav_list.innerHTML += ask_page;
+          nav_list.innerHTML += logout_page;
+        } else {
+          nav_list.innerHTML += login_page;
+          nav_list.innerHTML += signup_page;
+        }
+
+        
+      })();
+
+      function logout() {
+        localStorage.clear();
+      }
+
+      function toggleBtn() {
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+      }
+    </script>
+    <footer>copyright@2023 7th Sem</footer>
+  </body>
+</html>
+

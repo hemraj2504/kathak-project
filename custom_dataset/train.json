@@ -1,0 +1,465 @@
+{
+    "data": [
+      {
+        "title": "History of the Internet",
+        "paragraphs": [
+          {
+            "context": "The Internet is a global network of computers that allows people to communicate and share information with each other. It was developed in the 1960s by the United States Department of Defense's Advanced Research Projects Agency (ARPA), and was initially called ARPANET. The first successful message transmission on ARPANET occurred in October 1969, between the University of California, Los Angeles (UCLA) and the Stanford Research Institute. The Internet has since grown to become an integral part of modern society, with over 4.9 billion users worldwide as of January 2022.",
+            "qas": [
+              {
+                "id": "q1",
+                "question": "When was the first message sent on ARPANET?",
+                "answers": [
+                  {
+                    "text": "October 1969",
+                    "answer_start": 156
+                  }
+                ]
+              },
+              {
+                "id": "q2",
+                "question": "Who developed the Internet?",
+                "answers": [
+                  {
+                    "text": "United States Department of Defense's Advanced Research Projects Agency (ARPA)",
+                    "answer_start": 53
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Mount Everest",
+        "paragraphs": [
+          {
+            "context": "Mount Everest is the highest mountain in the world, with a peak that reaches 29,032 feet (8,849 meters) above sea level. It is located in the Himalayas, on the border between Nepal and Tibet. The first successful ascent of Mount Everest was made by Sir Edmund Hillary of New Zealand and Tenzing Norgay, a Sherpa of Nepal, in May 1953. Since then, thousands of climbers have attempted to reach the summit, with varying degrees of success. Mount Everest remains a popular destination for mountaineers and adventurers from around the world.",
+            "qas": [
+              {
+                "id": "q1",
+                "question": "Where is Mount Everest located?",
+                "answers": [
+                  {
+                    "text": "Himalayas, on the border between Nepal and Tibet",
+                    "answer_start": 44
+                  }
+                ]
+              },
+              {
+                "id": "q2",
+                "question": "Who was the first person to reach the summit of Mount Everest?",
+                "answers": [
+                  {
+                    "text": "Sir Edmund Hillary of New Zealand and Tenzing Norgay, a Sherpa of Nepal",
+                    "answer_start": 81
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Famous Inventors",
+      "paragraphs": [
+        {
+          "context": "Thomas Edison was an American inventor who is best known for inventing the electric light bulb. He held over 1,000 patents for his inventions, which also included the phonograph and the motion picture camera. Alexander Graham Bell was a Scottish-born inventor who is credited with inventing the telephone. He also worked on several other inventions, including the metal detector and the photophone. Marie Curie was a Polish-born physicist and chemist who is best known for her pioneering work in the field of radioactivity. She was the first woman to win a Nobel Prize, and the first person to win two Nobel Prizes in different fields of science.",
+          "qas": [
+            {
+              "id": "q1",
+              "question": "Who invented the electric light bulb?",
+              "answers": [
+                {
+                  "text": "Thomas Edison",
+                  "answer_start": 41
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "question": "What other inventions did Thomas Edison create?",
+              "answers": [
+                {
+                  "text": "the phonograph and the motion picture camera",
+                  "answer_start": 105
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "question": "What is Alexander Graham Bell famous for?",
+              "answers": [
+                {
+                  "text": "inventing the telephone",
+                  "answer_start": 179
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "World Capitals",
+      "paragraphs": [
+        {
+          "context": "Tokyo is the capital of Japan, and is known for its high-tech industry and vibrant culture. Paris is the capital of France, and is famous for its art, fashion, and cuisine. Moscow is the capital of Russia, and is home to many historical landmarks and cultural institutions. Cairo is the capital of Egypt, and is known for its ancient history and architecture.",
+          "qas": [
+            {
+              "id": "q1",
+              "question": "What is the capital of Japan?",
+              "answers": [
+                {
+                  "text": "Tokyo",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "question": "What is Paris famous for?",
+              "answers": [
+                {
+                  "text": "art, fashion, and cuisine",
+                  "answer_start": 59
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "question": "What is the capital of Russia?",
+              "answers": [
+                {
+                  "text": "Moscow",
+                  "answer_start": 43
+                }
+              ]
+            }
+          ]
+        }
+        ]
+      },
+      {
+        "title": "Fruits",
+            "paragraphs": [
+                {
+                    "context": "Apples are a popular fruit that come in many different varieties, including Granny Smith, Red Delicious, and Honeycrisp. Oranges are another popular fruit that are high in vitamin C and come in many varieties as well, such as Navel, Valencia, and Blood oranges. Bananas are a great source of potassium and are enjoyed by many people around the world. They come in different sizes and colors, from the small and sweet Cavendish to the large and starchy plantain.",
+                    "qas": [
+                        {
+                            "id": "q1",
+                            "question": "What are some varieties of apples?",
+                            "answers": [
+                                {
+                                    "text": "Granny Smith, Red Delicious, and Honeycrisp",
+                                    "answer_start": 55
+                                }
+                            ]
+                        },
+                        {
+                            "id": "q2",
+                            "question": "What vitamin is found in oranges?",
+                            "answers": [
+                                {
+                                    "text": "vitamin C",
+                                    "answer_start": 54
+                                }
+                            ]
+                        },
+                        {
+                            "id": "q3",
+                            "question": "What is a popular variety of banana?",
+                            "answers": [
+                                {
+                                    "text": "Cavendish",
+                                    "answer_start": 166
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Programming Languages",
+            "paragraphs": [
+                {
+                    "context": "Python is a popular programming language used for a variety of applications, including web development, data analysis, and artificial intelligence. JavaScript is another popular language that is commonly used for front-end web development, such as creating interactive user interfaces. Java is a widely used language for building enterprise-level applications, and is also popular in the Android app development community. Ruby is a dynamic language that is often used for building web applications with the Ruby on Rails framework.",
+                    "qas": [
+                        {
+                            "id": "q1",
+                            "question": "What is Python used for?",
+                            "answers": [
+                                {
+                                    "text": "web development, data analysis, and artificial intelligence",
+                                    "answer_start": 51
+                                }
+                            ]
+                        },
+                        {
+                            "id": "q2",
+                            "question": "What is JavaScript commonly used for?",
+                            "answers": [
+                                {
+                                    "text": "front-end web development, such as creating interactive user interfaces",
+                                    "answer_start": 95
+                                }
+                            ]
+                        },
+                        {
+                            "id": "q3",
+                            "question": "What is Java widely used for?",
+                            "answers": [
+                                {
+                                    "text": "building enterprise-level applications",
+                                    "answer_start": 141
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+      },
+      {
+        "title": "Movies",
+            "paragraphs": [
+                {
+                    "context": "Jurassic Park is a classic movie about a theme park filled with cloned dinosaurs that escape and wreak havoc. The Shawshank Redemption is a drama about a man who is wrongly convicted of murder and his experiences in prison. Inception is a sci-fi thriller about a group of thieves who enter people's dreams to steal their ideas. Pulp Fiction is a crime movie with intersecting storylines and memorable characters.",
+                    "qas": [
+                        {
+                            "id": "q1",
+                            "question": "What is Jurassic Park about?",
+                            "answers": [
+                                {
+                                    "text": "a theme park filled with cloned dinosaurs that escape and wreak havoc",
+                                    "answer_start": 29
+                                }
+                            ]
+                        },
+                        {
+                            "id": "q2",
+                            "question": "What is The Shawshank Redemption about?",
+                            "answers": [
+                                {
+                                    "text": "a man who is wrongly convicted of murder and his experiences in prison",
+                                    "answer_start": 57
+                                }
+                            ]
+                        },
+                        {
+                            "id": "q3",
+                            "question": "What is Inception about?",
+                            "answers": [
+                                {
+                                    "text": "a group of thieves who enter people's dreams to steal their ideas",
+                                    "answer_start": 39
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Animals",
+            "paragraphs": [
+                {
+                    "context": "The lion is a large predatory cat found in Africa and parts of Asia. Penguins are flightless birds that live in cold climates and are known for their distinctive black and white markings. Elephants are one of the largest land animals and are known for their long trunks and large, floppy ears. Sharks are a group of fish with a cartilaginous skeleton and sharp teeth that live in oceans around the world.",
+                    "qas": [
+                        {
+                            "id": "q1",
+                            "question": "Where are lions typically found?",
+                            "answers": [
+                                {
+                                    "text": "Africa and parts of Asia",
+                                    "answer_start": 33
+                                }
+                            ]
+                        },
+                        {
+                            "id": "q2",
+                            "question": "What are penguins known for?",
+                            "answers": [
+                                {
+                                    "text": "their distinctive black and white markings",
+                                    "answer_start": 70
+                                }
+                            ]
+                        },
+                        {
+                            "id": "q3",
+                            "question": "What are elephants known for?",
+                            "answers": [
+                                {
+                                    "text": "their long trunks and large, floppy ears",
+                                    "answer_start": 48
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+      },
+      {
+        "title": "Famous Scientists",
+        "paragraphs": [
+          {
+            "context": "Albert Einstein was a German-born theoretical physicist who developed the theory of general relativity, one of the two pillars of modern physics. Marie Curie was a Polish-born physicist and chemist who conducted pioneering research on radioactivity. Stephen Hawking was an English theoretical physicist and cosmologist known for his work on black holes and the origins of the universe.",
+            "qas": [
+              {
+                "id": "q1",
+                "question": "What is Albert Einstein known for?",
+                "answers": [
+                  {
+                    "text": "developing the theory of general relativity",
+                    "answer_start": 63
+                  }
+                ]
+              },
+              {
+                "id": "q2",
+                "question": "What did Marie Curie research?",
+                "answers": [
+                  {
+                    "text": "radioactivity",
+                    "answer_start": 69
+                  }
+                ]
+              },
+              {
+                "id": "q3",
+                "question": "What did Stephen Hawking study?",
+                "answers": [
+                  {
+                    "text": "black holes and the origins of the universe",
+                    "answer_start": 91
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Famous Writers",
+        "paragraphs": [
+          {
+            "context": "William Shakespeare was an English playwright and poet widely regarded as one of the greatest writers in the English language. Jane Austen was an English novelist known for her witty social commentary and insightful portrayals of characters. Ernest Hemingway was an American novelist and journalist who is known for his spare, straightforward writing style.",
+            "qas": [
+              {
+                "id": "q1",
+                "question": "What is William Shakespeare known for?",
+                "answers": [
+                  {
+                    "text": "being one of the greatest writers in the English language",
+                    "answer_start": 69
+                  }
+                ]
+              },
+              {
+                "id": "q2",
+                "question": "What is Jane Austen known for?",
+                "answers": [
+                  {
+                    "text": "her witty social commentary and insightful portrayals of characters",
+                    "answer_start": 60
+                  }
+                ]
+              },
+              {
+                "id": "q3",
+                "question": "What is Ernest Hemingway known for?",
+                "answers": [
+                  {
+                    "text": "his spare, straightforward writing style",
+                    "answer_start": 78
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Famous Landmarks",
+      "paragraphs": [
+        {
+          "context": "The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars in Paris, France. The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China. The Taj Mahal is an ivory-white marble mausoleum on the right bank of the Yamuna river in the Indian city of Agra.",
+          "qas": [
+            {
+              "id": "q1",
+              "question": "Where is the Eiffel Tower located?",
+              "answers": [
+                {
+                  "text": "Paris, France",
+                  "answer_start": 57
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "question": "What is the Great Wall of China made of?",
+              "answers": [
+                {
+                  "text": "stone, brick, tamped earth, wood, and other materials",
+                  "answer_start": 65
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "question": "Where is the Taj Mahal located?",
+              "answers": [
+                {
+                  "text": "Agra, India",
+                  "answer_start": 85
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Famous Paintings",
+      "paragraphs": [
+        {
+          "context": "The Mona Lisa is a portrait painting by Italian artist Leonardo da Vinci. Starry Night is an oil painting by Dutch post-impressionist artist Vincent van Gogh. The Persistence of Memory is a painting by Spanish surrealist artist Salvador Dali.",
+          "qas": [
+            {
+              "id": "q1",
+              "question": "Who painted the Mona Lisa?",
+              "answers": [
+                {
+                  "text": "Leonardo da Vinci",
+                  "answer_start": 32
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "question": "Who painted Starry Night?",
+              "answers": [
+                {
+                  "text": "Vincent van Gogh",
+                  "answer_start": 33
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "question": "Who painted The Persistence of Memory?",
+              "answers": [
+                {
+                  "text": "Salvador Dali",
+                  "answer_start": 47
+                }
+              ]
+            }
+          ]
+        }
+      ]
+      }
+    ]
+  }
+  
